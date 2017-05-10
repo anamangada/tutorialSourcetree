@@ -59,6 +59,15 @@
                                     <segment title="Cancel"/>
                                 </segments>
                             </segmentedControl>
+                            <slider opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="1" maxValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="Ib1-pK-Lm4">
+                                <rect key="frame" x="120" y="542" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.13185822429999999" green="0.96034263959999999" blue="0.91768600509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </slider>
+                            <activityIndicatorView opaque="NO" contentMode="redraw" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="FBV-VF-Hh8">
+                                <rect key="frame" x="267" y="357" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
